@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/*index.html'],
+  // content: ['./src/index.html'],
   theme: {
     screens: {
       sm: '480px',
@@ -10,6 +11,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        gray: 'hsl(211, 12%, 48%)',
         brightRed: 'hsl(12, 88%, 59%)',
         brightRedLight: 'hsl(12, 88%, 69%)',
         brightRedSupLight: 'hsl(12, 88%, 95%)',
@@ -17,8 +19,8 @@ module.exports = {
         darkGrayishBlue: 'hsl(227, 12%,61%)',
         veryDarkBlue: 'hsl(233, 12%, 13%)',
         veryPaleRed: 'hsl(13, 100% 96)',
-        veryLightGray: 'hsl(0, 0%, 98%)',
-      }
+        veryLightGray: 'hsl(0, 0%, 98%)'
+      },
     },
   },
   plugins: [],
